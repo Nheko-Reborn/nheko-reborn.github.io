@@ -6,7 +6,7 @@
 
         <title>{{ config.title }}</title>
 
-        {% include "partials/header.html" %}
+        {% include "partials/header2.html" %}
 
         {% if config.extra.theme %}
             <style>
@@ -33,7 +33,7 @@
     <body>
         <main>
             <div class="column left">
-                <a href="/"><img src="images/logo.png" class="portrait" alt="Portrait" /></a>
+                <a href="../"><img src="../images/logo.png" class="portrait" alt="Portrait" /></a>
             </div>
             <div class="column right">
                 <h1>{{ config.extra.greeting | default(value="Hello") }}</h1>
