@@ -13,7 +13,7 @@ script:
 # If you are using a different folder than `public` for the output directory, you will
 # need to change the `zola` command and the `ghp-import` path
 after_success: |
-  [ $TRAVIS_BRANCH = code ] &&
+  [ $TRAVIS_BRANCH = master ] &&
   [ $TRAVIS_PULL_REQUEST = false ] &&
   zola build &&
   sudo pip install ghp-import &&
