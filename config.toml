@@ -21,7 +21,7 @@ greeting = "nheko"
 downloads = [
     { title = "Latest Release Downloads", url = "https://github.com/Nheko-Reborn/nheko/releases/latest", unixOnlySupport = "no" },
     { title = "Repository Installations", url = "repositories", unixOnlySupport = "yes" },
-    { title = "Nightly Downloads", url = "https://nheko-reborn-artifacts.s3.us-east-2.amazonaws.com/list.html", unixOnlySupport = "yes"}
+    { title = "Nightly Downloads", url = "https://nheko-reborn-artifacts.s3.us-east-2.amazonaws.com/list.html", unixOnlySupport = "no"}
 ]
 
 screenshots = [
