@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://nheko-reborn.github.io/sitemap.xml

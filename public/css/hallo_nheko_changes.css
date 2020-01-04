@@ -1,0 +1,15 @@
+img.portrait{
+  width: auto !important;
+}
+
+main{
+  margin-top: 10vh !important;
+}
+
+div.screenshot{
+  width: 40%;
+}
+
+div.right{
+  width: 60%;
+}
