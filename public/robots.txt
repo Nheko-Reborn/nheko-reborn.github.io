@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://nheko-reborn.github.io/sitemap.xml
+Sitemap: https://nheko-reborn.github.io/sitemap.xml

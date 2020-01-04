@@ -6,12 +6,12 @@
 
         <title>{{ config.title }}</title>
 
-        <link rel="stylesheet" href="{{ get_url(path='fonts.css') }}">
-        <link rel="stylesheet" href="{{ get_url(path='fontawesome/css/fontawesome.css') }}">
-        <link rel="stylesheet" href="{{ get_url(path='hallo.css') }}">
-        <link rel="stylesheet" href="{{ get_url(path='css/hallo_nheko_changes.css') }}">
-        <link rel="stylesheet" href="{{ get_url(path='css/lightbox.css') }}">
-        <link rel="stylesheet" href="{{ get_url(path='css/github_tab.css') }}">
+        <link rel="stylesheet" href="fonts.css">
+        <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
+        <link rel="stylesheet" href="hallo.css">
+        <link rel="stylesheet" href="css/hallo_nheko_changes.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+        <link rel="stylesheet" href="css/github_tab.css">
 
         {% if config.extra.theme %}
             <style>
@@ -38,7 +38,7 @@
     <body>
         <main>
             <div class="column left">
-                <img src="{{ get_url(path='images/logo.png') }}" class="portrait" alt="Portrait" />
+                <img src="images/logo.png" class="portrait" alt="Portrait" />
             </div>
             <div class="column right">
                 <h1>{{ config.extra.greeting | default(value="Hello") }}</h1>
