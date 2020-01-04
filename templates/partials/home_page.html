@@ -1,0 +1,34 @@
+<p>{% include "partials/introduction.html" %}</p>
+<br/>
+
+{% if config.extra.downloads %}
+  {% for download in config.extra.downloads %}
+    <p><a href="{{ download.url }}">{{ download.title }}</a>
+    {% if download.unixOnlySupport == "yes" %}*{% endif %}</p>
+    <br/>
+  {% endfor %}
+{% endif %}
+
+<p class="notation">* Only available for Linux and macOS.</p>
+<br/>
+
+<h3>Screenshots:</h3>
+
+{% if config.extra.screenshots %}
+    <div class="screenshots">
+      <div class="top">
+        <ul>
+        {% for screenshot in config.extra.screenshots %}
+            <li><a href="#img_{{ screenshot.title }}">
+            <img src="{{ screenshot.file }}" class="screenshot" title="{{ screenshot.title }}"/>
+            </a></li>
+        {% endfor %}
+        </ul>
+        {% for screenshot in config.extra.screenshots %}
+            <a href="#_{{ screenshot.title }}" class="lightbox trans" id="img_{{ screenshot.title }}">
+            <img src="{{ screenshot.file }}" class="screenshot" title="{{ screenshot.title }}"/>
+            </a>
+        {% endfor %}
+      </div>
+    </div>
+{% endif %}

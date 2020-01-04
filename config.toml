@@ -1,0 +1,44 @@
+# The URL the site will be built for
+base_url = "https://nheko-reborn.github.io"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+# Theme name to use
+theme = "hallo"
+
+[extra]
+# Put all your custom variables here
+greeting = "nheko"
+
+downloads = [
+    { title = "Latest Release Downloads", url = "https://github.com/Nheko-Reborn/nheko/releases/latest", unixOnlySupport = "no" },
+    { title = "Repository Installations", url = "repositories", unixOnlySupport = "yes" },
+    { title = "Nightly Downloads", url = "https://nheko-reborn-artifacts.s3.us-east-2.amazonaws.com/list.html", unixOnlySupport = "no"}
+]
+
+screenshots = [
+    { title = "start", file = "images/screenshots/Start-resized.png" },
+    { title = "login", file = "images/screenshots/login-resized.png" },
+    { title = "chat", file = "images/screenshots/chat-resized.png" },
+    { title = "settings", file = "images/screenshots/settings-resized.png" }
+]
+
+links = [
+    # { title = "E-Mail", url = "mailto:mail@example.org", iconset = "fas", icon = "envelope" },
+    { title = "GitHub", url = "https://github.com/Nheko-Reborn/nheko", icon = "github" },
+    # { title = "Twitter", url = "https://twitter.com", icon = "twitter" }
+]
+
+[extra.theme]
+# background = "#1a1c23"
+background = "#292d36"
+foreground = "#FFF"
+hover = "#87aade"
