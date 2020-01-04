@@ -44,72 +44,38 @@
             <div class="column right">
                 <h1>nheko</h1>
 
-                <p>The motivation behind the project is to provide a native desktop app for <a href="https://matrix.org/" target="_blank">Matrix</a> that feels more like a mainstream chat app (<a href="https://about.riot.im/" target="_blank">Riot</a>, Telegram etc) and less like an IRC client.
-</p>
+                <h2>Repositories</h2>
 <br/>
 
-
-  
-    <p><a href="https:&#x2F;&#x2F;github.com&#x2F;Nheko-Reborn&#x2F;nheko&#x2F;releases&#x2F;latest">Latest Release Downloads</a>
-    </p>
-    <br/>
-  
-    <p><a href="repositories">Repository Installations</a>
-    *</p>
-    <br/>
-  
-    <p><a href="https:&#x2F;&#x2F;nheko-reborn-artifacts.s3.us-east-2.amazonaws.com&#x2F;list.html">Nightly Downloads</a>
-    *</p>
-    <br/>
-  
-
-
-<p class="notation">* Only available for Linux and macOS.</p>
+<h3>Arch Linux</h3>
+<pre>pacaur -S nheko # nheko-git</pre>
 <br/>
 
-<h3>Screenshots:</h3>
+<h3>Debian (10 and above)</h3>
+<pre>sudo apt install nheko</pre>
+<br/>
 
+<h3>Fedora</h3>
+<pre>sudo dnf install nheko</pre>
+<br/>
 
-    <div class="screenshots">
-      <div class="top">
-        <ul>
-        
-            <li><a href="#img_start">
-            <img src="images&#x2F;screenshots&#x2F;Start-resized.png" class="screenshot" title="start"/>
-            </a></li>
-        
-            <li><a href="#img_login">
-            <img src="images&#x2F;screenshots&#x2F;login-resized.png" class="screenshot" title="login"/>
-            </a></li>
-        
-            <li><a href="#img_chat">
-            <img src="images&#x2F;screenshots&#x2F;chat-resized.png" class="screenshot" title="chat"/>
-            </a></li>
-        
-            <li><a href="#img_settings">
-            <img src="images&#x2F;screenshots&#x2F;settings-resized.png" class="screenshot" title="settings"/>
-            </a></li>
-        
-        </ul>
-        
-            <a href="#_start" class="lightbox trans" id="img_start">
-            <img src="images&#x2F;screenshots&#x2F;Start-resized.png" class="screenshot" title="start"/>
-            </a>
-        
-            <a href="#_login" class="lightbox trans" id="img_login">
-            <img src="images&#x2F;screenshots&#x2F;login-resized.png" class="screenshot" title="login"/>
-            </a>
-        
-            <a href="#_chat" class="lightbox trans" id="img_chat">
-            <img src="images&#x2F;screenshots&#x2F;chat-resized.png" class="screenshot" title="chat"/>
-            </a>
-        
-            <a href="#_settings" class="lightbox trans" id="img_settings">
-            <img src="images&#x2F;screenshots&#x2F;settings-resized.png" class="screenshot" title="settings"/>
-            </a>
-        
-      </div>
-    </div>
+<h3>Gentoo Linux</h3>
+<pre>sudo layman -a matrix
+sudo emerge -a nheko</pre>
+<br/>
+
+<h3>Alpine Linux (and postmarketOS)</h3>
+<p class="notation">Make sure you have the testing repositories from edge enabled. Note that this is not needed on postmarketOS.</p>
+<pre>sudo apk add nheko</pre>
+<br/>
+
+<h3>Flatpak</h3>
+<pre>flatpak install flathub io.github.NhekoReborn.Nheko</pre>
+<br/>
+
+<h3>macOS (10.12 and above)
+with macports :</h3>
+<pre>sudo port install nheko</pre>
 
 
 

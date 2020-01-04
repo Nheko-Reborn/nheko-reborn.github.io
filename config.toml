@@ -18,6 +18,12 @@ theme = "hallo"
 # Put all your custom variables here
 greeting = "nheko"
 
+downloads = [
+    { title = "Latest Release Downloads", url = "https://github.com/Nheko-Reborn/nheko/releases/latest", unixOnlySupport = "no" },
+    { title = "Repository Installations", url = "repositories", unixOnlySupport = "yes" },
+    { title = "Nightly Downloads", url = "https://nheko-reborn-artifacts.s3.us-east-2.amazonaws.com/list.html", unixOnlySupport = "yes"}
+]
+
 screenshots = [
     { title = "start", file = "images/screenshots/Start-resized.png" },
     { title = "login", file = "images/screenshots/login-resized.png" },
@@ -30,9 +36,6 @@ links = [
     { title = "GitHub", url = "https://github.com/Nheko-Reborn/nheko", icon = "github" },
     # { title = "Twitter", url = "https://twitter.com", icon = "twitter" }
 ]
-
-# [extra.author]
-# name = "Hallo"
 
 [extra.theme]
 # background = "#1a1c23"

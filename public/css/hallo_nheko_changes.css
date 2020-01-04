@@ -5,3 +5,15 @@ img.portrait{
 main{
   margin-top: 10vh !important;
 }
+
+pre{
+  background-color: #1a1c23;
+  color: #c0def5;
+  padding: 6px;
+  margin: 6px;
+}
+
+p.notation{
+  font-style: italic;
+  font-size: 14px;
+}

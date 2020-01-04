@@ -38,7 +38,8 @@
             <div class="column right">
                 <h1>{{ config.extra.greeting | default(value="Hello") }}</h1>
 
-                {% include "partials/home_page.html" %}
+                {% include "partials/repository_install.html" %}
+
 
                 {% if config.extra.links %}
                     <div class="links">
