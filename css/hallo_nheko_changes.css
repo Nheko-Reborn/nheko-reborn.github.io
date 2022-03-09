@@ -6,6 +6,10 @@ main{
   margin-top: 10vh !important;
 }
 
+.column.right {
+  flex: 1.61803
+}
+
 pre{
   background-color: #1a1c23;
   color: #c0def5;
