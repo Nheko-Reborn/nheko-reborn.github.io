@@ -1,23 +1,23 @@
-img.portrait{
+img.portrait {
   width: auto !important;
 }
 
-main{
+header {
   margin-top: 10vh !important;
 }
 
 .column.right {
-  flex: 1.61803
+  flex: 1.61803;
 }
 
-pre{
+pre {
   background-color: #1a1c23;
   color: #c0def5;
   padding: 6px;
   margin: 6px;
 }
 
-p.notation{
+p.notation {
   font-style: italic;
   font-size: 14px;
 }
